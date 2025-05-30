@@ -1,9 +1,8 @@
+Work in Progress ...
 NorthStateFramework-cpp
 =======================
 
-An object-oriented framework for implementing UML state machines.  For more information, see the pages <a href="https://www.northstatesoftware.com/uml-state-machine-code-generation-framework.html">here.</a>
-
-
+An object-oriented framework for implementing UML state machines.
 
 1. [Compilation](#compilation)
 2. [Using NSF](#using-nsf)
@@ -53,21 +52,10 @@ specify system name manually.
 Example for POSIX-compatible systems: cmake -DCMAKE_BUILD_TYPE=Debug -DBUILD_TESTS=ON -DBUILD_EXAMPLES=ON -DCMAKE_SYSTEM_NAME=POSIX ..
 Example for eCOS system: cmake -DCMAKE_BUILD_TYPE=Debug -DBUILD_TESTS=ON -DBUILD_EXAMPLES=ON -DCMAKE_SYSTEM_NAME=eCOS ..
 
-d. Building the Documentation
------------------------------
-* If you wish to build the documentation you must first install Doxygen.
-* Open the solution
-* Right click on the Documentation project and choose build.
-* Index.html and other html pages will be generated to the \Documentation\Doxygen\HTML directory.
-
 Using NSF
 =========
 NSF is a framework contained in a .lib for inclusion in projects that require state machine behavior.  To start using  NSF, link against the NorthStateFramework.lib within your project.  See the included examples.  For an in-depth tutorial on using NSF, see the WorkingWithNorthStateFramework document contained in the solution.
 
-Documentation
-=============
-If you would rather not generate the documentation, you can use the online documentation located at http://northstatesoftware.github.io/NorthStateFramework-cpp/Documentation.
-
 Contributing
 ============
-Before submitting changes to NorthStateFramework-cpp, please review the contribution guidelines at https://github.com/NorthStateSoftware/NorthStateFramework-cpp/wiki/Contributor-FAQ.
+TBD
